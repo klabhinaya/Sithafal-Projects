@@ -1,1 +1,38 @@
+KEY FEATURES:
 
+Web Scraping
+
+Text Embedding Generation
+
+Database Storage
+
+Semantic Search
+
+LLM-powered Question Answering
+
+PREREQUESITES:
+
+R and the following packages
+rvest
+RSQLite
+httr
+openai (if using the OpenAI API)
+Hugging Face API key
+OpenAI API key
+Usage:
+
+INSTALL NECESSARY PACKAGES:
+Code snippet
+install.packages(c("rvest", "RSQLite", "httr", "openai")) 
+
+REPLACE PLACEHOLDERS:
+Hugging Face API Key: Replace "your_huggingface_api_key" with your actual Hugging Face API key in the convert_to_embeddings function.
+OpenAI API Key: Replace "your_api_key" with your actual OpenAI API key in the generate_response function.
+Run the script:
+Execute the code.
+The script will scrape the specified website, generate embeddings, store them in the database, and demonstrate the question-answering process with a sample query.
+
+This Readme provides a basic overview of the code. For detailed explanations of each function and its purpose, refer to the comments within the code itself.
+
+Disclaimer: This code is provided for educational and illustrative purposes only. The use of external APIs may have associated costs. Please refer to the respective API providers' terms of service for details.
+  
